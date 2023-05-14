@@ -1,0 +1,7 @@
+package Model
+
+data class Country(
+
+    val name:String,
+    val flag:String
+)

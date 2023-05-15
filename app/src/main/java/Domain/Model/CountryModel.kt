@@ -11,5 +11,9 @@ fun CountryModel.toCountries():Country{
     return Country(
         name = name,
         flag = flag
+
+
+
     )
+
 }

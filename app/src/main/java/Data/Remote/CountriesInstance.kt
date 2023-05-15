@@ -1,11 +1,11 @@
-package Network
+package Data.Remote
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 
 object CountriesInstance {
-    val api:CountriesApiService by lazy {
+    val api: CountriesApiService by lazy {
         Retrofit.Builder()
             .baseUrl("https://restcountries.com/")
             .addConverterFactory(GsonConverterFactory.create())

@@ -1,4 +1,4 @@
-package Model
+package Data.Remote.DTO
 
 data class Country(
 
